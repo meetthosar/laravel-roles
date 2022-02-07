@@ -50,6 +50,7 @@ class StoreRoleRequest extends FormRequest
             'slug'          => $this->slug,
             'description'   => $this->description,
             'level'         => $this->level,
+            'type'          => $this->type
         ];
     }
 }
